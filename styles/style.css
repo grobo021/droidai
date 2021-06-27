@@ -1,0 +1,8 @@
+@keyframes grow {
+    from { width: 500px; }
+    to { width: 600px; }
+}
+
+#robodog {
+    animation: grow 5s forwards;
+}

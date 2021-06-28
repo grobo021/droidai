@@ -1,8 +1,75 @@
-@keyframes grow {
-    from { width: 500px; }
-    to { width: 600px; }
+@keyframes moveRight {
+    0% {
+        opacity: 0;
+        transform: translateX(0%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(5%);
+    }
 }
 
-#robodog {
-    animation: grow 5s forwards;
+.moveRight {
+    animation: moveRight 5s forwards;
+}
+
+@keyframes moveLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(20%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.moveLeft {
+    animation: moveLeft 5s forwards;
+}
+
+@keyframes dropIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-30%);
+    }
+
+    30%, 100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+.dropIn {
+    animation: dropIn 5s forwards;
+}
+
+@keyframes fastDropIn {
+    0% {
+        transform: translateY(-40%);
+    }
+
+    25%, 100% {
+        transform: translateY(0%);
+    }
+}
+
+.fastDropIn {
+    animation: fastDropIn 5s forwards;
+}
+
+@media screen and (min-width: 801px) {
+    p.rescale {
+      font-size: 20px;
+      width: 100%;
+    }
+}
+  
+@media screen and (max-width: 800px) {
+    p.rescale {
+      font-size: 10px;
+      width: 50%;
+    }
 }

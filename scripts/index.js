@@ -33,7 +33,7 @@ $(() => {
             }, "slow");
 
             $("#drone").animate({
-                left: "-50%",
+                left: "-40%",
             }, "slow");
         }
     };

@@ -49,7 +49,7 @@
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Augmentation Utopia</a>
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" height="75px" alt="Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -92,41 +92,55 @@
                 <svg class="d-block w-100" width="800" height="600" xmlns="http://www.w3.org/2000/svg"
                     aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <rect width="100%" height="100%" fill="#777" />
-                    <!-- <text fill="#555" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="2em">
-                        First Slide
-                    </text> -->
-                    <image id="robodog" href="./images/robodog.png" x="50%" width="500px" height="615px"></image>
+                    <foreignObject x="20%" y="35%" width="250" height="200">
+                        <h2 class="fastDropIn" xmlns="http://www.w3.org/1999/xhtml"
+                            style="color: white; width: 100%; word-wrap: break-word;">
+                            Sample Text
+                        </h2>
+                        <p class="dropIn rescale" xmlns="http://www.w3.org/1999/xhtml"
+                            style="color: white; word-wrap: break-word;">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, vitae.
+                        </p>
+                    </foreignObject>
+                    <image id="robodog" class="moveRight" href="./images/robodog.png" x="50%" width="40%"
+                        height="100%"></image>
                 </svg>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                </div>
             </div>
             <div class="carousel-item">
                 <svg class="d-block w-100" width="800" height="600" xmlns="http://www.w3.org/2000/svg"
                     aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <rect width="100%" height="100%" fill="#666" />
-                    <text fill="#444" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="2em">
-                        Second Slide
-                    </text>
+                    <foreignObject x="60%" y="35%" width="250" height="200">
+                        <h2 class="fastDropIn" xmlns="http://www.w3.org/1999/xhtml"
+                            style="color: white; width: 100%; word-wrap: break-word;">
+                            Sample Text
+                        </h2>
+                        <p class="dropIn rescale" xmlns="http://www.w3.org/1999/xhtml"
+                            style="color: white; word-wrap: break-word;">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, vitae.
+                        </p>
+                    </foreignObject>
+                    <image id="hololens" class="dropIn" href="./images/hololens2.png" x="10%" width="40%"
+                        height="100%"></image>
                 </svg>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
             </div>
             <div class="carousel-item">
                 <svg class="d-block w-100" width="800" height="600" xmlns="http://www.w3.org/2000/svg"
                     aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <rect width="100%" height="100%" fill="#555" />
-                    <text fill="#777" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="2em">
-                        Third Slide
-                    </text>
+                    <foreignObject x="20%" y="35%" width="250" height="200">
+                        <h2 class="fastDropIn" xmlns="http://www.w3.org/1999/xhtml"
+                            style="color: white; width: 100%; word-wrap: break-word;">
+                            Sample Text
+                        </h2>
+                        <p class="dropIn rescale" xmlns="http://www.w3.org/1999/xhtml"
+                            style="color: white; word-wrap: break-word;">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, vitae.
+                        </p>
+                    </foreignObject>
+                    <image id="rover" class="moveLeft" href="./images/rover.png" x="50%" width="40%" height="100%">
+                    </image>
                 </svg>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -153,7 +167,7 @@
             </div>
         </div>
         <div id="drone" class="col-md-6" style="position: relative;">
-            <img src="./images/drone.png" style="height: 300px;" alt="drone" />
+            <img src="./images/drone.png" style="height: 250px;" alt="drone" />
         </div>
     </div>
 </body>

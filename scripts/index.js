@@ -1,14 +1,23 @@
 $(() => {
     //Get the button
-    const mybutton = document.getElementById("scrollBtn");
+    const topButton = document.getElementById("scrollBtn");
+    const chatButton = document.getElementById("openForm");
 
     const showTopButton = () => {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
+            topButton.style.display = "block";
         } else {
-            mybutton.style.display = "none";
+            topButton.style.display = "none";
         }
     };
+
+    const showChatButton = () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            chatButton.style.display = "block";
+        } else {
+            chatButton.style.display = "none";
+        }
+    }
 
     document.getElementById("copyright").innerHTML = `Copyright © 2021. All Rights Reserved.`;
 
@@ -44,6 +53,7 @@ $(() => {
 
     window.onscroll = () => {
         showTopButton();
+        showChatButton();
 
         if (mobileCheck()) {
             $("#componentsofai").hide();

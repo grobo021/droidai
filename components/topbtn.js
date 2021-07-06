@@ -9,7 +9,7 @@ class topbtn extends HTMLElement {
                 <i class="fas fa-arrow-up"></i>
             </button>
 
-            <button class="open-button" id="openForm">
+            <button class="open-button" style="display: none" id="openForm">
                 <i class="fas fa-comments"></i>
             </button>
 

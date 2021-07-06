@@ -277,7 +277,7 @@
 
 /* Button used to open the chat form - fixed at the bottom of the page */
 .open-button {
-    background: none;
+	background: none;
 	color: teal;
 	border: none;
 	cursor: pointer;
@@ -285,7 +285,7 @@
 	position: fixed;
 	bottom: 15px;
 	right: 90px;
-    z-index: 9;
+	z-index: 9;
 	font-size: 50px;
 }
 

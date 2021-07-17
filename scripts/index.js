@@ -58,15 +58,15 @@ $(() => {
         if (mobileCheck()) {
             $("#componentsofai").hide();
             $("#componentsofaimobile").show();
+            $("#statistics").hide();
+            $("#procons").hide();
+            $("#procons-mobile").show();
         } else {
             $("#componentsofai").show();
             $("#componentsofaimobile").hide();
-        }
-
-        if (mobileCheck()) {
-            $("#statistics").hide();
-        } else {
             $("#statistics").show();
+            $("#procons").show();
+            $("#procons-mobile").hide();
         }
 
         if ((checkVisible(document.getElementById("definition")) && checkVisible(document.getElementById("drone"))) && !mobileCheck()) {

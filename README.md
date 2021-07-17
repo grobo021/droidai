@@ -2,7 +2,7 @@
 This is the website I made for Haywire 4.0. It's meant to be as an archive for the future. The website is also up and running [here](https://grobo021.github.io/droidai/index.html)
 
 # Contributing
-I am not accepting pull requests. However you are free to fork and tinker with this.
+Pull requests are not being accepted for this repository. However, you are free to fork and tinker with this.
 
 # Credits
 - [Rishab Arora](https://github.com/grobo021) - Made the Website
